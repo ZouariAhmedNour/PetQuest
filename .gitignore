@@ -1,0 +1,27 @@
+# Ne pas ignorer les fichiers dans lib/
+!lib/
+!lib/**
+
+# Ignorer les fichiers de build
+.dart_tool/
+.buildlog/
+.packages
+.pub/
+build/
+
+# Plateformes
+android/
+ios/
+linux/
+macos/
+windows/
+web/
+
+# Autres fichiers générés ou spécifiques
+*.iml
+*.log
+pubspec.lock
+firebase.json
+flutter-plugins-dependencies
+.metadata
+README
